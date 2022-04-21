@@ -187,11 +187,11 @@ const HomeScreen = () => {
             showsUserLocation={true}
             followsUserLocation={true}
             ref={_map}
-            initialRegion={{
-              ...carsAround[0],
-              latitudeDelta: -4.395857,
-              longitudeDelta: 15.341852,
-            }}
+            // initialRegion={{
+            //   ...carsAround[0],
+            //   latitudeDelta: -4.395857,
+            //   longitudeDelta: 15.341852,
+            // }}
           >
             {
               //carsAroundMine
