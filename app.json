@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "uber",
+    "slug": "uber",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"]
+  },
+  "android": {
+    "package": "com.uber",
+    "config": {
+      "googleMaps": {
+        "apiKey": KEYS
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    }
+  }
+}
