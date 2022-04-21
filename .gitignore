@@ -56,7 +56,7 @@ buck-out/
 web-build/
 dist/
 
-#Sensitive
+#Sensitive: it does n't work
 /app.json/
 *.env
 .env
