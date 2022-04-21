@@ -53,4 +53,4 @@ buck-out/
 .expo/
 web-build/
 dist/
-app.json
+/app.json/
