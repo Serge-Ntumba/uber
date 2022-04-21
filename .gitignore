@@ -31,6 +31,8 @@ local.properties
 *.iml
 *.hprof
 
+
+
 # node.js
 #
 node_modules/
@@ -53,5 +55,14 @@ buck-out/
 .expo/
 web-build/
 dist/
+
+#Sensitive
 /app.json/
 *.env
+.env
+/.env
+\.env
+.env
+.app.json
+/.app.json
+*.app.json
