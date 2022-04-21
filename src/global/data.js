@@ -134,3 +134,19 @@ export const carsAround = [
   { latitude: -26.208565, longitude: 28.237191 },
   { latitude: -26.203598, longitude: 28.239509 },
 ];
+
+export const carsAroundMine = [
+  { latitude: -4.369807, longitude: 15.3445 },
+  { latitude: -4.366435, longitude: 15.342857 },
+  { latitude: -4.364316, longitude: 15.341772 },
+  { latitude: -4.342003, longitude: 15.330257 },
+  { latitude: -4.345125, longitude: 15.331875 },
+  { latitude: -4.381837, longitude: 15.352482 },
+  { latitude: -4.38507, longitude: 15.360342 },
+  { latitude: -4.408986, longitude: 15.347319 },
+  { latitude: -4.410501, longitude: 15.337661 },
+  { latitude: -4.414779, longitude: 15.347452 },
+  { latitude: -4.412383, longitude: 15.341268 },
+  { latitude: -4.422995, longitude: 15.337832 },
+  { latitude: -4.420085, longitude: 15.330446 },
+];

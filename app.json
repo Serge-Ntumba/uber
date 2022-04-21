@@ -3,8 +3,19 @@
     "name": "uber",
     "slug": "uber",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
+  },
+  "android": {
+    "package": "com.uber",
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyC4-a3ycVyK1890vaJ-M3sz7skhOXpMjVc"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    }
   }
 }
