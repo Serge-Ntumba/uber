@@ -9,7 +9,7 @@
     "package": "com.uber",
     "config": {
       "googleMaps": {
-        "apiKey": KEYS
+        "apiKey": "AIzaSyC4-a3ycVyK1890vaJ-M3sz7skhOXpMjVc"
       },
       "permissions": [
         "ACCESS_COARSE_LOCATION",
