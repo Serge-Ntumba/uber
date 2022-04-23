@@ -18,7 +18,7 @@ export default function DrawerNavigator() {
           drawerIcon: ({ focussed, size }) => (
             <Icon
               type="material-community"
-              name="Home"
+              name="home"
               color={focussed ? "#7cc" : colors.grey2}
               size={size}
             />
