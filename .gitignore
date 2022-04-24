@@ -57,12 +57,4 @@ web-build/
 dist/
 
 #Sensitive
-/app.json/
-*.env
-.env
-/.env
-\.env
-.env
-.app.json
-/.app.json
-*.app.json
+.env.development.local
