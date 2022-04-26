@@ -10,9 +10,6 @@ const App = () => {
     <OriginContextProvider>
       <RootNavigator />
     </OriginContextProvider>
-    // <View style={styles.container}>
-    //   <HomeScreen />
-    // </View>
   );
 };
 

@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import { HomeStack } from "./StackNavigation";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { Icon } from "@rneui/base";

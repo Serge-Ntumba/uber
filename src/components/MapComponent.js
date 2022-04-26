@@ -1,5 +1,5 @@
-import { Text, StyleSheet, View, Image } from "react-native";
 import React, { Component } from "react";
+import { Text, StyleSheet, View, Image } from "react-native";
 import { mapStyle } from "../global/mapStyle";
 import { colors, parameters } from "../global/styles";
 import MapView, { PROVIDER_GOOGLE } from "react-native-maps";

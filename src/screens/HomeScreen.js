@@ -51,7 +51,6 @@ const HomeScreen = ({ navigation }) => {
   useEffect(() => {
     checkPermission();
     getLocation();
-    // console.log(latLong);
   }, []);
 
   return (
@@ -200,18 +199,15 @@ const HomeScreen = ({ navigation }) => {
             //   longitudeDelta: 15.341852,
             // }}
           >
-            {
-              //carsAroundMine
-              carsAroundMine.map((item, index) => (
-                <MapView.Marker coordinate={item} key={index.toString()}>
-                  <Image
-                    source={require("../../assets/carMarker.png")}
-                    style={styles.carsAround}
-                    resizeMode="cover"
-                  />
-                </MapView.Marker>
-              ))
-            }
+            {carsAroundMine.map((item, index) => (
+              <MapView.Marker coordinate={item} key={index.toString()}>
+                <Image
+                  source={require("../../assets/carMarker.png")}
+                  style={styles.carsAround}
+                  resizeMode="cover"
+                />
+              </MapView.Marker>
+            ))}
           </MapView>
         </View>
       </ScrollView>
