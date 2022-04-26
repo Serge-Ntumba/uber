@@ -51,7 +51,7 @@ const HomeScreen = ({ navigation }) => {
   useEffect(() => {
     checkPermission();
     getLocation();
-    console.log(latLong);
+    // console.log(latLong);
   }, []);
 
   return (

@@ -1,3 +1,4 @@
+import React, { useState, useContext, useEffect } from "react";
 import {
   StyleSheet,
   Text,
@@ -6,15 +7,29 @@ import {
   TouchableOpacity,
   Image,
 } from "react-native";
-import React from "react";
 import { colors, parameters } from "../global/styles";
 import MapComponent from "../components/MapComponent";
 import { Icon, Avatar } from "@rneui/base";
+import { OriginContext } from "../contexts/contests";
+import { or } from "react-native-reanimated";
 
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
 const RequestScreen = ({ navigation }) => {
+  const { origin, dispatchOrigin } = useContext(OriginContext);
+
+  const [userOrigin, setUserOrigin] = useState({
+    latitude: origin.latitude,
+    longitude: origin.longitude,
+  });
+
+  useEffect(() => {
+    setUserOrigin({
+      latitude: origin.latitude,
+      longitude: origin.longitude,
+    });
+  }, [origin]);
   return (
     <View style={styles.container}>
       <View style={styles.view1}>
@@ -79,7 +94,7 @@ const RequestScreen = ({ navigation }) => {
           </View>
         </View>
       </View>
-      <MapComponent />
+      <MapComponent userOrigin={userOrigin} />
     </View>
   );
 };
