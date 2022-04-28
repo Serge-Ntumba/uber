@@ -11,7 +11,6 @@ import { colors, parameters } from "../global/styles";
 import MapComponent from "../components/MapComponent";
 import { Icon, Avatar } from "@rneui/base";
 import { OriginContext } from "../contexts/contests";
-import { or } from "react-native-reanimated";
 
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 const SCREEN_WIDTH = Dimensions.get("window").width;
